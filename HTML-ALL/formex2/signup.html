@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Details</title>
+</head>
+<body>
+    <div class="form-container">
+    <h1>Registration Details</h1>
+    <form>
+        <div class="form-row">
+            <label> User Name:</label>
+            <input type="text" name="Username">
+            <br><br>
+        </div>
+         <div class="form-row">
+                <label>Mobile No:</label>
+                <input type="tel" name="mobile">
+                <br><br>
+            </div>
+
+            <div class="form-row">
+                <label>DOB:</label>
+                <input type="date" name="dob">
+                <br><br>
+            </div>
+
+            <div class="form-row">
+                <label>Gender:</label>
+
+                    <input type="radio" name="gender" value="male">
+                    <span>Male</span>
+
+                    <input type="radio" name="gender" value="female">
+                    <span>Female</span>
+                    <br><br>
+            </div>
+
+            <div class="form-row">
+                <label>State:</label>
+
+                <select name="state">
+                    <option>--please select state--</option>
+                    <option>Kerala</option>
+                    <option>Karnataka</option>
+                    <option>Tamil Nadu</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Telangana</option>
+                </select>
+                <br><br>
+            </div>
+
+            <div class="form-row">
+                <label>Message:</label>
+                <textarea name="message"></textarea>
+                <br><br>
+            </div>
+
+            <div class="terms">
+                <input type="checkbox" checked>
+                <span>Please Accept <a href="#">T&C</a></span>
+                <br><br>
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Reg....</button>
+                <button type="reset">Cancel</button>
+            </div>
+
+        </form>
+
+    </div> 
+</body>
+</html>
