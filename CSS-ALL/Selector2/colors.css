@@ -1,0 +1,12 @@
+a{
+    background-color: red;
+}
+
+a[target]{
+    background-color: yellow;
+}
+
+*{
+    font-size: medium;
+    background-color: pink;
+}
